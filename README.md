@@ -2,6 +2,8 @@
 
 A Windows 11 Fluent Design GUI for Microsoft's [IntuneWinAppUtil.exe](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool) (Win32 Content Prep Tool). Package your Win32 apps as `.intunewin` files for Microsoft Intune without touching the command line.
 
+![IntuneWin Packager](Screenshots/app%20front.png)
+
 ## Features
 
 - Browse or drag-and-drop source folders, setup files, and output paths
