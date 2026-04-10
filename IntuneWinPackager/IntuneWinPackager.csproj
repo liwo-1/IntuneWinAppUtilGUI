@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <AssemblyTitle>IntuneWin Packager</AssemblyTitle>
+    <Product>IntuneWin Packager</Product>
+    <Description>A Fluent Design GUI wrapper for Microsoft's IntuneWinAppUtil.exe (Win32 Content Prep Tool)</Description>
+    <Authors>liwo-1</Authors>
+    <RepositoryUrl>https://github.com/liwo-1/IntuneWinAppUtilGUI</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="WPF-UI" Version="4.2.0" />
+  </ItemGroup>
+
+</Project>
